@@ -13,6 +13,9 @@ sap.ui.define(
             },
             onNext:function (oEvent){
                 sap.m.MessageToast.show(oEvent.getParameter("nextValue"));
+            },
+            onPressText:function(oEvent){
+                sap.m.MessageToast.show(oEvent.getSource().getText());
             }
         });
     }

@@ -3,6 +3,7 @@
         <content>
             <vis:Fibonic id="fibonic" firstValue="10" secondValue="100" next="onNext"/>
             <Button text="reset" press="onReset"/>
+            <vis:TextCustom text="Hello" class="sapUiSmallMargin" press="onPressText"/>
         </content>
     </Page>
 </mvc:View>
