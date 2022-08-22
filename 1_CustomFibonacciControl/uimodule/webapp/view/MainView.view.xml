@@ -1,0 +1,8 @@
+<mvc:View controllerName="com.myorg.testLibApp.controller.MainView" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m" xmlns:vis="com.myorg.testLibApp.customControls">
+    <Page id="page" title="{i18n>title}">
+        <content>
+            <vis:Fibonic id="fibonic" firstValue="10" secondValue="100" next="onNext"/>
+            <Button text="reset" press="onReset"/>
+        </content>
+    </Page>
+</mvc:View>
