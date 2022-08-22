@@ -25,11 +25,13 @@
     "eslint": "^7.32.0",
     "prettier": "^2.5.1",
     "@prettier/plugin-xml": "^1.1.0",
-    "@sap/eslint-plugin-ui5-jsdocs": "^2.0.5"
+    "@sap/eslint-plugin-ui5-jsdocs": "^2.0.5",
+    "myCustomLib":"1.0.0"
   },
   "ui5": {
     "dependencies": [
-      "ui5-middleware-livereload"
+      "ui5-middleware-livereload",
+      "myCustomLib"
     ]
   }
 }

@@ -1,9 +1,12 @@
-<mvc:View controllerName="com.myorg.testLibApp.controller.MainView" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m" xmlns:vis="com.myorg.testLibApp.customControls">
+<mvc:View controllerName="com.myorg.testLibApp.controller.MainView" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m" xmlns:vis="com.myorg.testLibApp.customControls" xmlns:custLib="com.sap.customLib.myCustomLib">
     <Page id="page" title="{i18n>title}">
         <content>
             <vis:Fibonic id="fibonic" firstValue="10" secondValue="100" next="onNext"/>
             <Button text="reset" press="onReset"/>
             <vis:TextCustom text="Hello" class="sapUiSmallMargin" press="onPressText"/>
+            <VBox>
+                <custLib:Fibonic title="From custom lib"/>
+            </VBox>
         </content>
     </Page>
 </mvc:View>
