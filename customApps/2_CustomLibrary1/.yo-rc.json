@@ -1,0 +1,16 @@
+{
+  "generator-ui5-library": {
+    "libraryname": "myCustomLib",
+    "namespace": "com.sap.customLib",
+    "framework": "SAPUI5",
+    "frameworkVersion": "1.86.3",
+    "author": "Vishnu Panduranga",
+    "newdir": false,
+    "namespaceURI": "com/sap/customLib",
+    "librarynamespace": "com.sap.customLib.myCustomLib",
+    "librarynamespaceURI": "com/sap/customLib/myCustomLib",
+    "librarybasepath": "../../../../",
+    "frameworklowercase": "sapui5",
+    "setupCompleted": true
+  }
+}
